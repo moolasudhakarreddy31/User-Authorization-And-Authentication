@@ -1,0 +1,17 @@
+{% extends 'AuthApp/base.html' %}
+
+  {% block body_block %}
+
+  <div class="container" align="center">
+
+    <h1>Welcome Login Page...!</h1>
+    <form method="post">
+        {%csrf_token%}
+        {{form.as_p}}
+        <input type="submit" class="btn btn-primary" value="Login">
+    </form>
+
+  </div>
+
+
+  {% endblock %}
