@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base</title>
+    <style>
+      .nav{
+        background-color: darkorange;
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div align="center">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <nav class="navbar navbar-expand-lg navbar-default bg-light">
+                <a class="navbar-brand" href="/home">JNTUH's Examination</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="/java">Java Exam <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="/python">Python Exam</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="/aptitude">Aptitude Exam</a>
+                    </li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Signup</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Login</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Logout</a>
+                    </li>
+
+
+                  </ul>
+                </div>
+              </nav>
+
+        </div>
+
+
+    </div>
+    {%block body_block%}
+
+
+    {%endblock%}
+</body>
+</html>
