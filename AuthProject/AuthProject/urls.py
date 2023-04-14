@@ -20,10 +20,12 @@ from AuthApp import views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
+    path('home/',views.home_view),
     path('java/',views.java_view),
     path('python/',views.python_view),
     path('aptitude/',views.aptitude_view),
-    path('home/',views.home_view),
+    path('logout/',views.logout_view),
+    path('signup/',views.signupform_view),
     path('accounts/',include('django.contrib.auth.urls')),
 
 ]
